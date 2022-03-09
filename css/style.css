@@ -1,0 +1,11 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:bordex-box;
+}
+
+body{
+    color: rgb(20, 19, 19);
+    font-weight: 500;
+    background-color: rgb(42, 151, 165);
+}
