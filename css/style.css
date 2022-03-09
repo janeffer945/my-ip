@@ -9,3 +9,7 @@ body{
     font-weight: 500;
     background-color: rgb(42, 151, 165);
 }
+
+.container{
+    justify-content: center;
+}
