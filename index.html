@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <h1>Form</h1>
+    <h1>Akan Naming System </h1>
     
          <div class="container">
              
@@ -18,53 +18,62 @@
             Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
              Here are Ghanian day names.</p>
             <b>Male</b> <br>
-Sunday: Kwasi<br>
+           <ol>
 
-Monday: Kwadwo<br>
+<li>sunday: Kwasi<br></li>
 
-Tuesday: Kwabena<br>
+<li>Monday: Kwadwo<br></li>
 
-Wednesday: Kwaku<br>
+<li>Tuesday: Kwabena<br></li>
 
-Thursday:  Yaw<br>
+<li>Wednesday: Kwaku<br></li>
 
-Friday: Kofi<br>
+<li>Thursday:  Yaw<br></li>
 
-Saturday: Kwame<br>
+<li>Friday: Kofi<br></li>
+<li>Saturday: Kwame<br></li>
+</ol>
+
+
+
 <b>Female</b><br>
-Sunday: Akosua<br>
+<ol>
+<li>Sunday: Akosua<br></li>
 
-Monday: Adwoa<br>
+<li>Monday: Adwoa<br></li>
 
-Tuesday: Abenaa<br>
+<li> Tuesday:Abenaa <br></li>
 
-Wednesday: Akua<br>
+<li>Wednesday: Akua<br></li>
 
-Thursday:  Yaa<br>
+<li>Thursday:  Yaa<br></li>
 
-Friday: Afua<br>
+<li>Friday: Afua<br></li>
 
-Saturday: Ama   
-            
+<li>Saturday: Ama</li>
+</ol>     
             
             
             </div>
 
 
 
-   
-    <form class="form">
-        <label for="year"required>year:</label>
+   <div>    <form class="form" id="form">
+        <!-- <label for="year"required>year:</label>
         <input type="number                                                                                                                     " id="year" name="year">
         <label for="month">month:</label>
         <input type="number" id="month" name="month"required>
         <label for="date">date:</label>
-        <input type="number" id="date" name="date"required><br>
+        <input type="number" id="date" name="date"required><br> -->
+        <label for="date"></label>
+        date<input type="date" id="dob" name="dob" placeholder="">
         <label for="gender"required>gender:</label><br>        
        male <input type="radio" name="male" id="male" ><br>
       female  <input type="radio" name="female" id="female" ><br>
-      <button>submit</button>
+      <button type="submit" onclick="akan();" name="btn">Submit</button>
        </form>
+       
+      
  
    <script src="JS/script.js"></script>
 
